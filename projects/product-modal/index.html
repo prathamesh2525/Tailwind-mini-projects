@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Product Modal</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex justify-center items-center min-h-screen bg-slate-300">
+      <!-- Card -->
+      <div class="bg-gray-100 p-2 mx-6 rounded-2xl">
+        <!-- Flex-Container -->
+        <div
+          class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16 rounded-2xl p-6 m-3 space-y-10 drop-shadow-2xl"
+        >
+          <!-- Image -->
+          <div>
+            <img
+              src="./images/headphone.png"
+              class="w-60 mx-auto hover:scale-105 duration-200 bg-gray-100"
+              alt="headphone.png gaana sun loo mahenge headphone me"
+            />
+          </div>
+          <div class="p-6 md:p-12">
+            <div class="flex flex-col mb-4 space-y-3">
+              <div
+                class="bg-black text-white px-3 py-1 rounded-full text-sm inline-block w-28"
+              >
+                Free shipping
+              </div>
+              <h3 class="font-poppins font-bold text-lg mt-4">
+                Razer Kraken Kitty Edt Gaming Headset Quartz
+              </h3>
+              <p class="text-sm mt-8 font-poppins line-through">$799</p>
+              <p class="text-4xl mt-4 font-poppins font-bold">$599</p>
+              <p class="font-poppins text-xs font-thin mt-4">
+                This offer is valid until April 3 or as long as stock lasts!
+              </p>
+              <button
+                class="text-white w-full bg-blue-700 border-b-8 border-b-blue-700 rounded-lg hover:border-t-8 hover:border-b-0 hover:bg-blue-700 hover:border-t-blue-700 hover:shadow-lg"
+              >
+                <div
+                  class="px-8 py-4 bg-blue-500 rounded-lg hover:bg-blue-700"
+                >
+                  Add to cart
+                </div>
+              </button>
+              <div class="flex justify-start">
+                <div
+                  class="bg-green-400 rounded-full h-3 w-3 mt-4 hover:animate-ping"
+                ></div>
+                <p class="font-poppins text-sm ml-4 mt-3 font-medium">
+                  60+ pcs. in stock
+                </p>
+              </div>
+              <div class="flex justify-around">
+                <div
+                  class="flex justify-center mt-8 border border-gray-300 cursor-pointer p-3 rounded-lg hover:scale-105 hover:border-b-8 hover:bg-opacity-30 hover:shadow-lg hover:-traslate-y-0.5 transition-all duration-200 md:mx-auto"
+                >
+                  <img src="./images/weight.png" class="h-8" alt="" />
+                  <p class="ml-3">Add to cart</p>
+                </div>
+                <div
+                  class="flex justify-center mt-8 border border-gray-300 cursor-pointer p-3 rounded-lg hover:scale-105 hover:border-b-8 hover:bg-opacity-30 hover:shadow-lg hover:-traslate-y-0.5 transition-all duration-200 md:mx-auto"
+                >
+                  <img src="./images/heart.png" class="h-8" alt="" />
+                  <p class="ml-3">Add to wishlist</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
