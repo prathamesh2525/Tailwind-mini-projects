@@ -1,1 +1,1 @@
-# Tailwind-mini-projects
+# Tailwind-projects
