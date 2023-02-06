@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://tailwind-projects-smoky.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/prathamesh2525/Tailwind-projects/blob/main/Collab-design-tailwind/index.html">
       Solution
     </a>
     <span> | </span>
